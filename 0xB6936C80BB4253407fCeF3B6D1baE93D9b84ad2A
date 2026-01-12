@@ -1,0 +1,68 @@
+[Verification] Contract deployed. Checking explorers for registration...
+[block:74956589 txIndex:2]from: 0x201...7Aa36to: CBI.(constructor)value: 0 weidata: 0x608...40033logs: 2hash: 0x4cc...bc450
+status	1 Transaction mined and execution succeed
+transaction hash	0xc44a8855afa16b6e3966f71d84d2177385ac8e232c2bf0605d05afab02f39310
+block hash	0x4cc29d086e8b71b830ac9fb0e291e362874de68553d60f373c4108b7615bc450
+block number	74956589
+contract address	0xB6936C80BB4253407fCeF3B6D1baE93D9b84ad2A
+from	0x2011E13d777a951a3682e0047Ceca9b07657Aa36
+to	CBI.(constructor)
+transaction cost	1720534 gas 
+decoded input	{}
+decoded output	 - 
+logs	[
+	{
+		"from": "0xB6936C80BB4253407fCeF3B6D1baE93D9b84ad2A",
+		"topic": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+		"event": "OwnershipTransferred",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x2011E13d777a951a3682e0047Ceca9b07657Aa36"
+		}
+	},
+	{
+		"from": "0xB6936C80BB4253407fCeF3B6D1baE93D9b84ad2A",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x2011E13d777a951a3682e0047Ceca9b07657Aa36",
+			"2": "1000000000000000000000000000000"
+		}
+	}
+]
+raw logs	[
+  {
+    "_type": "log",
+    "address": "0xB6936C80BB4253407fCeF3B6D1baE93D9b84ad2A",
+    "blockHash": "0x4cc29d086e8b71b830ac9fb0e291e362874de68553d60f373c4108b7615bc450",
+    "blockNumber": 74956589,
+    "data": "0x",
+    "index": 4,
+    "topics": [
+      "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+      "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "0x0000000000000000000000002011e13d777a951a3682e0047ceca9b07657aa36"
+    ],
+    "transactionHash": "0xc44a8855afa16b6e3966f71d84d2177385ac8e232c2bf0605d05afab02f39310",
+    "transactionIndex": 2
+  },
+  {
+    "_type": "log",
+    "address": "0xB6936C80BB4253407fCeF3B6D1baE93D9b84ad2A",
+    "blockHash": "0x4cc29d086e8b71b830ac9fb0e291e362874de68553d60f373c4108b7615bc450",
+    "blockNumber": 74956589,
+    "data": "0x000000000000000000000000000000000000000c9f2c9cd04674edea40000000",
+    "index": 5,
+    "topics": [
+      "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+      "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "0x0000000000000000000000002011e13d777a951a3682e0047ceca9b07657aa36"
+    ],
+    "transactionHash": "0xc44a8855afa16b6e3966f71d84d2177385ac8e232c2bf0605d05afab02f39310",
+    "transactionIndex": 2
+  }
+]
+Etherscan verification skipped: API key not provided.
+Please input the API key in Remix Settings - Connected Services OR Contract Verification Plugin Settings.
+[Sourcify] Verification submitted. Awaiting confirmation...
